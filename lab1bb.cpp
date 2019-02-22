@@ -14,14 +14,16 @@ int main()
 	
 	for (int d=0; d<3;d++)
 	{
-		veca.push_back(m);
+		veca.push_back('m');
 	}
 	
-	cout<< veca<<" ";
-	cout<< vec<< endl;
+	for(int i=0; i<vec.size();i++)
+	{
+		cout<<vec[i]<<" ";
+	}
 	
 	cout<<"First name"<<name<<endl;
 	cout<<"Full name"<<name2<<endl;
 	
-	system"pause";
+	
 }
